@@ -9,10 +9,10 @@
 
 using namespace std;
 
-int Prost[] = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101 };
-
-// Поиск простых чисел
-int REi(int a, int b) {
+int PrimeNum[] = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101 };
+// 587 621
+// a*a^-1 = 1 mod b
+int ReverseNum(int a, int b) {
 	for (int x = 1; x < INT32_MAX; x++)
 		if ((a * x) % b == 1) return x;
 	return 0;
@@ -20,7 +20,7 @@ int REi(int a, int b) {
 
 
 // НОД 2 3 чисел
-int Evklid(int a, int b)
+int Euclid2(int a, int b)
 {
 	while (a != b)
 	{
@@ -36,9 +36,9 @@ int Evklid(int a, int b)
 }
 
 
-int Evklid_3(int a, int b, int c)
+int Euclid3(int a, int b, int c)
 {
-	return Evklid(Evklid(a, b), c);
+	return Euclid2(Euclid2(a, b), c);
 }
 
 //kn + xy = 1(mod n)
@@ -76,7 +76,7 @@ int Evklid_3(int a, int b, int c)
 	else return r2;
 	else if (t2 != 1) return 0;
 	else return r1;
-}*/
+}
 
 
 int Big_Evklid(int a, int b, int* x, int* y)
@@ -100,37 +100,38 @@ int RE(int a, int b)
 	if (g != 1) return 0;
 	return (x % b + b) % b;
 
-}
+}*/
 
-string Resheto(int m, int n)
+string ReshetoEratos(int m, int n)
 {
 	int kol = 0;
 	double kor = sqrt(n);
 
 	int* mass = new int[1000];
 	string otv = "";
-	int s = Prost[0];
+	int s = PrimeNum[0]; // символы из массива 
 
-	for (int i = m; i <= n; i++) // выпишем ц.ч. [m;n]
+	for (int i = m; i <= n; i++) // выпишем целые числа [m;n]
 	{
 		mass[i - m] = i;
 	}
 
-	for (int k = 0; Prost[k] < kor; k++)
+	for (int k = 0; PrimeNum[k] < kor; k++) // сравниваем с массивом простых чисел
 	{
-		s = Prost[k];	//2,3,5,7... v477
+		s = PrimeNum[k];	//2,3,5,7... 
 
-		for (int i = 0; i < n - m; i++)
+		for (int i = 0; i < n - m; i++) 
 		{
 			if (mass[i] == s) continue;		// от 2s
 			if (mass[i] % s == 0) mass[i] = 0;
 		}
 	}
+
 	for (int i = 0; i < n - m; i++)
 	{
-		if (mass[i] != 0) {
+		if (mass[i] != 0) { 
 			kol++;
-			otv += to_string(mass[i]) + "; ";
+			otv += to_string(mass[i]) + "; "; // помещаем числа подходящие промежутку
 		}
 	}
 	cout << "\n Количество простых чисел на промежутке - " << kol;
@@ -150,12 +151,12 @@ int main()
 	cout << "Задание 1: Найт простые числа в интервале [2; n] n - из вариантат \n";
 	cout << "Введите n: \n";
 	cin >> n;
-	cout << "Простые числа на промежутке:  " << Resheto(2, n) << "\n";
+	cout << "Простые числа на промежутке:  " << ReshetoEratos(2, n) << "\n";
 
 	cout << "Задание 2: Найти простые числа на интервале [m; n] m и n - числа из варианта \n";
 	cout << "Введите m: \n";
 	cin >> m;
-	cout << "Простые числа на промежутке:  " << Resheto(m, n) << "\n";
+	cout << "Простые числа на промежутке:  " << ReshetoEratos(m, n) << "\n";
 
 	cout << "Задание 6: Найт НОД \n";
 	cout << "НОД 2-х чисел: \n";
@@ -163,7 +164,7 @@ int main()
 	cin >> a;
 	cout << "Введите b: \n";
 	cin >> b;
-	cout << "НОД двух чисел= " << Evklid(a, b) << "\n";
+	cout << "НОД двух чисел= " << Euclid2(a, b) << "\n";
 
 	cout << "НОД 3-х чисел: \n";
 	cout << "Введите a: \n";
@@ -172,15 +173,17 @@ int main()
 	cin >> b;	
 	cout << "Введите c: \n";
 	cin >> c;
-	cout << "НОД трех чисел= " << Evklid_3(a, b, c) << "\n";
+	cout << "НОД трех чисел= " << Euclid3(a, b, c) << "\n";
 	
-
-	
-	/*cout << "Введите коэфициенты для нахождения обратного числа по модулю: \n";
-	cin >> a >> b;
-	cout << to_string(a) + "y = 1 mod " << to_string(b);
-	cout << "\nНайдем число, обратное " << to_string(a) << " по модулю " << to_string(b);
-	cout << "\nОно равно = " << REi(a, b) << "\n";*/
+		
+	/*cout << "Найдем число обратное числу a: \n";
+	cout << "Введите число а: \n";
+	cin >> a;
+	cout << "Введите число по модулю n: \n";
+	cin	>> n;
+	cout << to_string(a) + "y = 1 mod " << to_string(n);
+	cout << "\nНайдем число, обратное числу " << to_string(a) << " по модулю " << to_string(n);
+	cout << "\nЧисло обратно числу a = " << ReverseNum(a, n) << "\n";*/
 
 
 	system("pause");
