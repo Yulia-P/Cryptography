@@ -1,0 +1,22 @@
+D:\3\КМЗИ\10 - ЭЦП\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.exe.config
+D:\3\КМЗИ\10 - ЭЦП\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.exe
+D:\3\КМЗИ\10 - ЭЦП\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.pdb
+D:\3\КМЗИ\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.CoreCompileInputs.cache
+D:\3\КМЗИ\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.exe
+D:\3\КМЗИ\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.pdb
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.exe.config
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.exe
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.pdb
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.AssemblyReference.cache
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.SuggestedBindingRedirects.cache
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.CoreCompileInputs.cache
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.exe
+C:\Users\37529\Desktop\крипта\10 - ЭЦП\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.pdb
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.exe.config
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.exe
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\bin\Debug\Ell-Gamal_sign.pdb
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.AssemblyReference.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.SuggestedBindingRedirects.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.csproj.CoreCompileInputs.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.exe
+C:\Users\37529\Documents\GitHub\Cryptography\Lab12\Sign\Ell-Gamal_sign\obj\Debug\Ell-Gamal_sign.pdb

@@ -1,0 +1,15 @@
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\bin\Debug\net6.0\SHA.exe
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\bin\Debug\net6.0\SHA.deps.json
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\bin\Debug\net6.0\SHA.runtimeconfig.json
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\bin\Debug\net6.0\SHA.dll
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\bin\Debug\net6.0\SHA.pdb
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.csproj.AssemblyReference.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.AssemblyInfoInputs.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.AssemblyInfo.cs
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.csproj.CoreCompileInputs.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.dll
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\refint\SHA.dll
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.pdb
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\SHA.genruntimeconfig.cache
+C:\Users\37529\Documents\GitHub\Cryptography\Lab11\SHA\SHA\obj\Debug\net6.0\ref\SHA.dll
