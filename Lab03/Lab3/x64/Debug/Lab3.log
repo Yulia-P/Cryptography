@@ -1,0 +1,4 @@
+﻿  Lab3.cpp
+C:\Users\37529\Documents\GitHub\Cryptography\Lab3\Lab3\Lab3.cpp(148,9): warning C4101: y: неиспользованная локальная переменная
+C:\Users\37529\Documents\GitHub\Cryptography\Lab3\Lab3\Lab3.cpp(148,6): warning C4101: x: неиспользованная локальная переменная
+  Lab3.vcxproj -> C:\Users\37529\Documents\GitHub\Cryptography\Lab3\x64\Debug\Lab3.exe
